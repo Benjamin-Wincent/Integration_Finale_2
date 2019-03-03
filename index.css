@@ -1,0 +1,180 @@
+@font-face
+{
+  font-family:"Aniron";
+  src:url("fonts/pete-klassen_aniron/anicb___.ttf");
+  src:url("fonts/pete-klassen_aniron/anicm___.ttf");
+  src:url("fonts/pete-klassen_aniron/anirb___.ttf");
+  src:url("fonts/pete-klassen_aniron/anirm___.ttf");
+
+  font-family:"Tengwar Annatar";
+  src:url("fonts/tengwar_annatar/tngan.ttf");
+  src:url("fonts/tengwar_annatar/tnganb.ttf");
+  src:url("fonts/tengwar_annatar/tnganbi.ttf");
+  src:url("fonts/tengwar_annatar/tngani.ttf");
+
+  font-family:"Party Business";
+  src:url("fonts/nancy-lorenz_party-business/partybusiness.ttf");
+}
+
+body
+{
+  font-family: "Aniron";
+}
+
+h1
+{
+  font-size: 25px;
+  font-family: "Aniron";
+}
+
+mark
+{
+    font-size: 15px;
+    background: none;
+}
+
+h3
+{
+  color: darkorange;
+  font-size: 30px;
+  font-family:"Party Business";
+  font-weight: normal;
+}
+
+span
+{
+  font-family:"Tengwar Annatar";
+  color: darkorange;
+}
+
+strong
+{
+  font-family:"Party Business";
+  font-weight: normal;
+}
+
+.reward
+{
+  position: absolute;
+  top: 5%;
+  left: 17%;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 15px 50px 0px 50px;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.reward2
+{
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 15px 50px 0px 50px;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.reward3
+{
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 15px 50px 0px 50px;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.picture1
+{
+	opacity: 0.5;
+}
+
+em
+{
+    color: darkorange;
+    font-style: normal;
+}
+
+s
+{
+      color: darkorange;
+}
+
+.name{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.nain{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.picture1:hover
+{
+    opacity: 1.0;
+}
+
+.picture1:hover .reward
+{
+    visibility: hidden    
+}
+
+.picture1:hover .reward2
+{
+    visibility: hidden    
+}
+
+.picture1:hover .reward3
+{
+    visibility: hidden    
+}
+
+.picture1:hover .name
+{	
+	color: white;
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.picture1:hover .nain
+{ 
+  color: white;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#container1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td, th
+{
+	border: 1px solid black;
+  	padding: 10px 10px 10px 10px;
+  	text-align: center;
+}
